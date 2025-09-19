@@ -17,7 +17,13 @@
       }
     </style>
 </head>
+
 <body>
+<nav>
+  <a href="113409531_index.html">首頁</a> |
+  <a href="113409531_detail.html">詳細介紹</a>
+</nav>
+<hr>
 
 <h1>空洞騎士：絲綢之歌</h1>
 <ul>
@@ -37,6 +43,47 @@
     </td>
   </tr>
 </table>
+
+<h2>回饋表單</h2>
+<form action="113409531_index.html" method="get">
+  <label for="age">年齡：</label>
+  <select id="age" name="age" required>
+    <option value="">請選擇</option>
+    <option value="under18">18以下</option>
+    <option value="18-25">18-25</option>
+    <option value="26-35">26-35</option>
+    <option value="36plus">36以上</option>
+  </select>
+  <br>
+
+  <p>你喜歡的遊戲類型（可複選）：</p>
+  <label><input type="checkbox" name="genre[]" value="action"> 動作（Action）</label><br>
+  <label><input type="checkbox" name="genre[]" value="adventure"> 冒險（Adventure）</label><br>
+  <label><input type="checkbox" name="genre[]" value="rpg"> 角色扮演（RPG）</label><br>
+  <label><input type="checkbox" name="genre[]" value="sRPG"> 策略角色扮演（SRPG）</label><br>
+  <label><input type="checkbox" name="genre[]" value="platform"> 平台（Platformer）</label><br>
+  <label><input type="checkbox" name="genre[]" value="fighting"> 格鬥（Fighting）</label><br>
+  <label><input type="checkbox" name="genre[]" value="moba"> MOBA</label><br>
+  <label><input type="checkbox" name="genre[]" value="battleRoyale"> 大逃殺（Battle Royale）</label><br>
+  <label><input type="checkbox" name="genre[]" value="survival"> 生存（Survival）</label><br>
+  <label><input type="checkbox" name="genre[]" value="simulation"> 模擬（Simulation/SLG）</label><br>
+  <label><input type="checkbox" name="genre[]" value="music"> 音樂（Music）</label><br>
+  <label><input type="checkbox" name="genre[]" value="sandbox"> 沙盒（Sandbox）</label><br>
+  <label><input type="checkbox" name="genre[]" value="metroidvania"> 類銀河戰士惡魔城（Metroidvania）</label><br>
+
+  <p>你認為最重要的元素（單選）：</p>
+  <label><input type="radio" name="element" value="gameplay"> 玩法</label><br>
+  <label><input type="radio" name="element" value="story"> 劇情</label><br>
+  <label><input type="radio" name="element" value="music"> 音樂</label><br>
+  <label><input type="radio" name="element" value="art"> 美術</label><br>
+  <br>
+
+  <label for="favorite">你最喜歡的遊戲：</label>
+  <input type="text" id="favorite" name="favorite">
+  <br>
+
+  <button type="submit">送出</button>
+</form>
 
 </body>
 </html>

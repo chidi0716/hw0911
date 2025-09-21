@@ -1,0 +1,59 @@
+/* 導覽列 */
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 8px;
+}
+
+nav a:hover {
+  color: red;
+}
+
+/* 頁面基本美化 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+table, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: auto;
+  padding: 10px;
+}
+
+/* 讓圖片與影片在同一列時對齊到上方，避免跑位 */
+table td {
+  vertical-align: top;
+}
+
+/* 第二頁圖片與影片等高 */
+table img {
+  display: block;
+  height: 315px;
+  width: auto;
+}
+
+iframe {
+  border: none;
+}
+
+/* 細節頁圖片與影片表格：靠左、無邊框 */
+table.media-row {
+  margin-left: 0;
+  margin-right: auto;
+  border: none;
+}
+
+table.media-row td {
+  border: none;
+  padding-right: 12px;
+  vertical-align: top;
+}
+
+/* 細節頁媒體表格：縮小左右間距，避免圖片與影片之間過大空隙 */
+table.media-row { border-collapse: collapse; }
+table.media-row td { padding: 0 8px 0 0; }
+table.media-row td:last-child { padding-right: 0; }

@@ -16,6 +16,15 @@
       iframe {
         border: none;
       }
+      /* 導覽列：單行、無圓點、滑過展開 */
+      nav .menu { list-style: none; margin: 0; padding: 0; display: inline-flex; gap: 8px; align-items: center; }
+      nav .menu > li { position: relative; list-style: none; }
+      nav .menu .sep { pointer-events: none; color: #666; }
+      nav .submenu { display: none; position: absolute; top: 100%; left: 0; background: #fff; border: 1px solid #ccc; border-radius: 6px; min-width: 200px; padding: 6px 0; margin: 0; list-style: none; z-index: 1000; }
+      nav .submenu li { list-style: none; }
+      nav .submenu a { display: block; padding: 8px 12px; text-decoration: none; color: black; white-space: nowrap; }
+      nav .submenu a:hover { background: #f5f5f5; }
+      nav .has-sub:hover > .submenu, nav .has-sub:focus-within > .submenu { display: block; }
     </style>
 </head>
 
@@ -23,17 +32,16 @@
 <nav>
   <ul class="menu">
     <li><a href="113409531_index.html">首頁</a></li>
+    <li class="sep">｜</li>
     <li><a href="113409531_detail.html">詳細介紹</a></li>
+    <li class="sep">｜</li>
     <li class="has-sub">
-      <a href="#">經典釣魚迷因 ▾</a>
+      <a href="#" aria-haspopup="true" aria-expanded="false">更多連結</a>
       <ul class="submenu">
-        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener">Never Gonna Give You Up</a></li>
-        <li><a href="https://www.youtube.com/watch?v=oHg5SJYRHA0" target="_blank" rel="noopener">Original Rickroll</a></li>
-        <li><a href="https://www.youtube.com/watch?v=9Deg7VrpHbM" target="_blank" rel="noopener">Trololo Song</a></li>
-        <li><a href="https://www.youtube.com/watch?v=j5a0jTc9S10" target="_blank" rel="noopener">Nyan Cat</a></li>
+        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener">不要放棄</a></li>
+        <li><a href="https://www.youtube.com/watch?v=IxX_QHay02M" target="_blank" rel="noopener">貓</a></li>
       </ul>
     </li>
-    <li><a href="https://store.steampowered.com/" target="_blank" rel="noopener">Steam</a></li>
   </ul>
 </nav>
 <hr>

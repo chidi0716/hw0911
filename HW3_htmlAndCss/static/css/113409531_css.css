@@ -1,15 +1,4 @@
-/* 導覽列 */
-nav a {
-  color: black;
-  text-decoration: none;
-  padding: 8px;
-}
-
-nav a:hover {
-  color: red;
-}
-
-/* 頁面基本美化 */
+/* ===== 全站基礎 ===== */
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -17,43 +6,60 @@ body {
   padding: 0;
 }
 
-table, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  margin: auto;
-  padding: 10px;
+/* ===== 導覽列：單行、無圓點、滑過展開 ===== */
+nav .menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
 }
-
-/* 讓圖片與影片在同一列時對齊到上方，避免跑位 */
-table td {
-  vertical-align: top;
+nav .menu > li {
+  position: relative;
+  list-style: none;
 }
-
-/* 第二頁圖片與影片等高 */
-table img {
-  display: block;
-  height: 315px;
-  width: auto;
+nav .menu .sep {
+  pointer-events: none;
+  color: #666;
 }
-
-iframe {
-  border: none;
+nav .menu a {
+  color: black;
+  text-decoration: none;
+  padding: 6px 8px;
 }
+nav .menu a:hover { color: red; }
 
-/* 細節頁圖片與影片表格：靠左、無邊框 */
-table.media-row {
-  margin-left: 0;
-  margin-right: auto;
-  border: none;
+/* 子選單：預設隱藏，滑鼠靠近才展開 */
+nav .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  min-width: 200px;
+  padding: 6px 0;
+  margin: 0;
+  list-style: none;
+  z-index: 1000;
 }
+nav .submenu li { list-style: none; }
+nav .submenu a { display: block; padding: 8px 12px; text-decoration: none; color: black; white-space: nowrap; }
+nav .submenu a:hover { background: #f5f5f5; }
+nav .has-sub:hover > .submenu,
+nav .has-sub:focus-within > .submenu { display: block; }
 
-table.media-row td {
-  border: none;
-  padding-right: 12px;
-  vertical-align: top;
-}
+/* ===== 表格 ===== */
+table { border-collapse: collapse; margin: 20px auto; }
+table, td { border: 1px solid black; padding: 10px; }
 
-/* 細節頁媒體表格：縮小左右間距，避免圖片與影片之間過大空隙 */
-table.media-row { border-collapse: collapse; }
-table.media-row td { padding: 0 8px 0 0; }
+/* 細節頁：媒體表格靠左且無框線 */
+table.media-row { margin-left: 0; margin-right: auto; border: none; }
+table.media-row td { border: none; padding: 0 8px 0 0; vertical-align: top; }
 table.media-row td:last-child { padding-right: 0; }
+
+/* 影像與影片等高 */
+table img { display: block; height: 315px; width: auto; }
+iframe { border: none; }

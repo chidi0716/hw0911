@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a90ab985-67e5-4ce6-8d6b-fa61aa9af9cf" name="更改" comment="下拉式連結">
-      <change afterPath="$PROJECT_DIR$/HW4_JavaScript1/static/113409531_js_1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW4_JavaScript1/static/113409531_js_2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW4_JavaScript1/template/113409531_js_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW4_JavaScript1/template/113409531_js_2.html" afterDir="false" />
+    <list default="true" id="a90ab985-67e5-4ce6-8d6b-fa61aa9af9cf" name="更改" comment="新增HW4作業文件夾及檔案">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW4_JavaScript1/template/113409531_js_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HW4_JavaScript1/template/113409531_js_1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +52,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -81,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1758182114454</updated>
       <workItem from="1758182115691" duration="13824000" />
-      <workItem from="1758777604009" duration="362000" />
+      <workItem from="1758777604009" duration="1386000" />
     </task>
     <task id="LOCAL-00001" summary="detail頁面上半部">
       <option name="closed" value="true" />
@@ -115,17 +113,37 @@
       <option name="project" value="LOCAL" />
       <updated>1758471454583</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="新增HW4作業文件夾及檔案">
+      <option name="closed" value="true" />
+      <created>1758778005642</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758778005642</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="detail頁面上半部" />
     <MESSAGE value="detial 下半部" />
     <MESSAGE value="導航欄美化" />
     <MESSAGE value="下拉式連結" />
-    <option name="LAST_COMMIT_MESSAGE" value="下拉式連結" />
+    <MESSAGE value="新增HW4作業文件夾及檔案" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增HW4作業文件夾及檔案" />
   </component>
 </project>

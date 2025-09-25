@@ -13,12 +13,17 @@ document.write(`
   <button onclick="add('-')">-</button>
   <button onclick="add('*')">*</button>
   <button onclick="add('/')">/</button>
-  <br>
-  <button onclick="calc()">=</button>
-  <button onclick="clearBar()">clear</button>
+  <button onclick="slove()">=</button>
+  <button onclick="clear()">clear</button>
 `);
 
 function add(input) {
     const bar = document.getElementById('typeBar');
     bar.value += input;
+}
+
+function slove() {
+}
+
+function clear() {
 }

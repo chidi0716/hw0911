@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a90ab985-67e5-4ce6-8d6b-fa61aa9af9cf" name="更改" comment="新增HW4作業文件夾及檔案">
+    <list default="true" id="a90ab985-67e5-4ce6-8d6b-fa61aa9af9cf" name="更改" comment="完成猜數字部分的html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4_JavaScript1/template/113409531_js_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HW4_JavaScript1/template/113409531_js_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW4_JavaScript1/static/113409531_js_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW4_JavaScript1/static/113409531_js_1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1758182114454</updated>
       <workItem from="1758182115691" duration="13824000" />
-      <workItem from="1758777604009" duration="1386000" />
+      <workItem from="1758777604009" duration="2389000" />
     </task>
     <task id="LOCAL-00001" summary="detail頁面上半部">
       <option name="closed" value="true" />
@@ -121,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758778005642</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="完成猜數字部分的html">
+      <option name="closed" value="true" />
+      <created>1758779115638</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758779115638</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +152,7 @@
     <MESSAGE value="導航欄美化" />
     <MESSAGE value="下拉式連結" />
     <MESSAGE value="新增HW4作業文件夾及檔案" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增HW4作業文件夾及檔案" />
+    <MESSAGE value="完成猜數字部分的html" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成猜數字部分的html" />
   </component>
 </project>

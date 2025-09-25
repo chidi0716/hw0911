@@ -4,38 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a90ab985-67e5-4ce6-8d6b-fa61aa9af9cf" name="更改" comment="導航欄美化">
+    <list default="true" id="a90ab985-67e5-4ce6-8d6b-fa61aa9af9cf" name="更改" comment="下拉式連結">
+      <change afterPath="$PROJECT_DIR$/HW4_JavaScript1/static/113409531_js_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4_JavaScript1/static/113409531_js_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4_JavaScript1/template/113409531_js_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4_JavaScript1/template/113409531_js_2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW3_htmlAndCss/static/css/113409531_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/HW3_htmlAndCss/static/css/113409531_css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW3_htmlAndCss/templates/113409531_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/HW3_htmlAndCss/templates/113409531_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW3_htmlAndCss/templates/113409531_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HW3_htmlAndCss/templates/113409531_index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "chidi0716"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;chidi0716&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/chidi0716/hw0911.git",
-    "accountId": "c12bde0d-02a4-4ffe-806c-92ee6e6250b7"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/chidi0716/hw0911.git&quot;,
+    &quot;accountId&quot;: &quot;c12bde0d-02a4-4ffe-806c-92ee6e6250b7&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="32rcQOzO7uvAOAwDzL2ER4yKNpv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,6 +52,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -70,7 +80,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758182114454</updated>
-      <workItem from="1758182115691" duration="13699000" />
+      <workItem from="1758182115691" duration="13824000" />
+      <workItem from="1758777604009" duration="362000" />
     </task>
     <task id="LOCAL-00001" summary="detail頁面上半部">
       <option name="closed" value="true" />
@@ -96,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758468580163</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="下拉式連結">
+      <option name="closed" value="true" />
+      <created>1758471454583</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758471454583</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +125,7 @@
     <MESSAGE value="detail頁面上半部" />
     <MESSAGE value="detial 下半部" />
     <MESSAGE value="導航欄美化" />
-    <option name="LAST_COMMIT_MESSAGE" value="導航欄美化" />
+    <MESSAGE value="下拉式連結" />
+    <option name="LAST_COMMIT_MESSAGE" value="下拉式連結" />
   </component>
 </project>

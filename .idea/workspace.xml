@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a90ab985-67e5-4ce6-8d6b-fa61aa9af9cf" name="更改" comment="計算機html完成">
+    <list default="true" id="a90ab985-67e5-4ce6-8d6b-fa61aa9af9cf" name="更改" comment="計算機按鈕建立">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW4_JavaScript1/static/113409531_js_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW4_JavaScript1/static/113409531_js_2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4_JavaScript1/template/113409531_js_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/HW4_JavaScript1/template/113409531_js_2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1758182114454</updated>
       <workItem from="1758182115691" duration="13824000" />
-      <workItem from="1758777604009" duration="7345000" />
+      <workItem from="1758777604009" duration="8141000" />
     </task>
     <task id="LOCAL-00001" summary="detail頁面上半部">
       <option name="closed" value="true" />
@@ -163,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758783599337</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="計算機按鈕建立">
+      <option name="closed" value="true" />
+      <created>1758785224988</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1758785224988</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +198,7 @@
     <MESSAGE value="按鈕function建立" />
     <MESSAGE value="猜數字遊戲完成" />
     <MESSAGE value="計算機html完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="計算機html完成" />
+    <MESSAGE value="計算機按鈕建立" />
+    <option name="LAST_COMMIT_MESSAGE" value="計算機按鈕建立" />
   </component>
 </project>

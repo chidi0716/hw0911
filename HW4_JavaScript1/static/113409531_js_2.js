@@ -16,7 +16,7 @@ document.write(`
   <button onclick="add('(')">(</button>
   <button onclick="add(')')">)</button>
   <button onclick="solve()">=</button>
-  <button onclick="clear()">clear</button>
+  <button onclick="clearbtn()">clear</button>
 `);
 
 function add(input) {
@@ -31,6 +31,7 @@ function solve() {
     bar.value = result;
 }
 
-function clear() {
-
+function clearbtn() {
+    const bar = document.getElementById('typeBar');
+    bar.value = ("");
 }

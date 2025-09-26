@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a90ab985-67e5-4ce6-8d6b-fa61aa9af9cf" name="更改" comment="計算機按鈕輸入與功能按鈕新增">
+    <list default="true" id="a90ab985-67e5-4ce6-8d6b-fa61aa9af9cf" name="更改" comment="添加&quot;( )&quot;按鈕並完成計算功能">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW4_JavaScript1/static/113409531_js_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW4_JavaScript1/static/113409531_js_2.js" afterDir="false" />
     </list>
@@ -80,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1758182114454</updated>
       <workItem from="1758182115691" duration="13824000" />
-      <workItem from="1758777604009" duration="11770000" />
+      <workItem from="1758777604009" duration="12455000" />
     </task>
     <task id="LOCAL-00001" summary="detail頁面上半部">
       <option name="closed" value="true" />
@@ -186,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758821304098</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="添加&quot;( )&quot;按鈕並完成計算功能">
+      <option name="closed" value="true" />
+      <created>1758898705751</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1758898705752</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +224,7 @@
     <MESSAGE value="計算機html完成" />
     <MESSAGE value="計算機按鈕建立" />
     <MESSAGE value="計算機按鈕輸入與功能按鈕新增" />
-    <option name="LAST_COMMIT_MESSAGE" value="計算機按鈕輸入與功能按鈕新增" />
+    <MESSAGE value="添加&quot;( )&quot;按鈕並完成計算功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加&quot;( )&quot;按鈕並完成計算功能" />
   </component>
 </project>

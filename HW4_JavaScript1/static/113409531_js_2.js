@@ -13,7 +13,9 @@ document.write(`
   <button onclick="add('-')">-</button>
   <button onclick="add('*')">*</button>
   <button onclick="add('/')">/</button>
-  <button onclick="slove()">=</button>
+  <button onclick="add('(')">(</button>
+  <button onclick="add(')')">)</button>
+  <button onclick="solve()">=</button>
   <button onclick="clear()">clear</button>
 `);
 
@@ -22,8 +24,13 @@ function add(input) {
     bar.value += input;
 }
 
-function slove() {
+function solve() {
+    const bar = document.getElementById('typeBar');
+    const result = eval(bar.value);  // 直接用 bar.value
+    alert(`${bar.value} = ${result}`);
+    bar.value = result;
 }
 
 function clear() {
+
 }

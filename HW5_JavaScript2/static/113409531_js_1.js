@@ -1,5 +1,8 @@
 let answer = Math.floor(Math.random() * 101);
 let tries = 0;
+let seconds = 0;
+let timer = null;
+const clock = document.getElementById('clock');
 
 const input = document.getElementById('guess');
 const hint = document.getElementById('hint');
@@ -7,7 +10,12 @@ const hint = document.getElementById('hint');
 function Guess() {
     const value = Number(input.value);
     tries++;
-
+    if (!timer) {
+        timer = setInterval(() => {
+            seconds++;
+            clock.innerText = String(seconds);
+        }, 1000);
+    }
     if (value > answer) {
         hint.innerText = "太大了！";
     } else if (value < answer) {

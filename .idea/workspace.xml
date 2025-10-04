@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a90ab985-67e5-4ce6-8d6b-fa61aa9af9cf" name="更改" comment="記錄功能">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a90ab985-67e5-4ce6-8d6b-fa61aa9af9cf" name="更改" comment="完成購物車外觀部分html">
+      <change beforePath="$PROJECT_DIR$/HW5_JavaScript2/static/113409531_js_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW5_JavaScript2/static/113409531_js_2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW5_JavaScript2/template/113409531_js_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/HW5_JavaScript2/template/113409531_js_2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +37,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -88,7 +88,7 @@
       <updated>1758182114454</updated>
       <workItem from="1758182115691" duration="13824000" />
       <workItem from="1758777604009" duration="12649000" />
-      <workItem from="1759382473431" duration="10300000" />
+      <workItem from="1759382473431" duration="10522000" />
     </task>
     <task id="LOCAL-00001" summary="detail頁面上半部">
       <option name="closed" value="true" />
@@ -250,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759388893365</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="完成購物車外觀部分html">
+      <option name="closed" value="true" />
+      <created>1759607835459</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1759607835459</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +295,7 @@
     <MESSAGE value="計時開始功能" />
     <MESSAGE value="計時停止功能" />
     <MESSAGE value="記錄功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="記錄功能" />
+    <MESSAGE value="完成購物車外觀部分html" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成購物車外觀部分html" />
   </component>
 </project>

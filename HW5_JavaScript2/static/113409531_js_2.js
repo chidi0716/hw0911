@@ -47,15 +47,29 @@ rows.forEach(row => {
 
     plus.addEventListener('click', () => {
         let q = Number(qtyInput.value) || 0;
-        if (q < stock) q++;
+        if (stock === 0) q = 0;
+        else if (q < stock) q++;
         qtyInput.value = q;
         updateSubtotal();
     });
 
     minus.addEventListener('click', () => {
         let q = Number(qtyInput.value) || 0;
-        if (q > 0) q--;
+        if (stock === 0) q = 0;
+        else if (q > 1) q--;
         qtyInput.value = q;
         updateSubtotal();
     });
+    qtyInput.addEventListener('blur', () => {
+        let q = Number(qtyInput.value);
+        if (!Number.isFinite(q)) q = 0;
+        q = Math.floor(q);
+        if (stock === 0) q = 0;
+        else if (q < 1) q = 1;
+        else if(q > stock) q = stock;
+        qtyInput.value = q;
+        updateSubtotal();
+    });
+
+    updateSubtotal();
 });

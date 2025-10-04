@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a90ab985-67e5-4ce6-8d6b-fa61aa9af9cf" name="更改" comment="勾選與金額計算功能">
+    <list default="true" id="a90ab985-67e5-4ce6-8d6b-fa61aa9af9cf" name="更改" comment="加減按鈕功能">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW5_JavaScript2/static/113409531_js_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW5_JavaScript2/static/113409531_js_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW5_JavaScript2/template/113409531_js_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/HW5_JavaScript2/template/113409531_js_2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,7 @@
       <updated>1758182114454</updated>
       <workItem from="1758182115691" duration="13824000" />
       <workItem from="1758777604009" duration="12649000" />
-      <workItem from="1759382473431" duration="10705000" />
+      <workItem from="1759382473431" duration="11674000" />
     </task>
     <task id="LOCAL-00001" summary="detail頁面上半部">
       <option name="closed" value="true" />
@@ -273,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759608100848</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="加減按鈕功能">
+      <option name="closed" value="true" />
+      <created>1759608222380</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1759608222380</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +323,7 @@
     <MESSAGE value="完成購物車外觀部分html" />
     <MESSAGE value="全選功能" />
     <MESSAGE value="勾選與金額計算功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="勾選與金額計算功能" />
+    <MESSAGE value="加減按鈕功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="加減按鈕功能" />
   </component>
 </project>

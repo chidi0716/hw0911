@@ -27,8 +27,8 @@ function recalc() {
     });
     total.textContent = sum;
 }
-function getStock() {
-    return Number(row.querySelector('.stock').textContent);
+function getStock(r) {
+    return Number(r.querySelector('.stock').textContent);
 }
 rows.forEach(row => {
     const plus = row.querySelector('.btn_plus');
@@ -45,7 +45,7 @@ rows.forEach(row => {
 
     plus.addEventListener('click', () => {
         let q = Number(qtyInput.value) || 0;
-        const stock = getStock();
+        const stock = getStock(row);
         if (stock === 0) q = 0;
         else if (q < stock) q++;
         qtyInput.value = q;
@@ -54,7 +54,7 @@ rows.forEach(row => {
 
     minus.addEventListener('click', () => {
         let q = Number(qtyInput.value) || 0;
-        const stock = getStock();
+        const stock = getStock(row);
         if (stock === 0) q = 0;
         else if (q > 1) q--;
         qtyInput.value = q;
@@ -62,7 +62,7 @@ rows.forEach(row => {
     });
     qtyInput.addEventListener('blur', () => {
         let q = Number(qtyInput.value);
-        const stock = getStock();
+        const stock = getStock(row);
         if (!Number.isFinite(q)) q = 0;
         q = Math.floor(q);
         if (stock === 0) q = 0;
@@ -92,7 +92,7 @@ checkoutBtn.onclick = function () {
         }
     });
 
-    if (sum <= 0) return; // 沒選任何商品就不動作
+    if (sum <= 0) return;
 
     alert("購買成功\n"+detail + `\n總金額：${sum}`);
 
